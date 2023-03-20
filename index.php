@@ -23,11 +23,14 @@ include("login.php");
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <style>
+    <!-- <style>
         body {
           font-family: Arial, sans-serif;
           margin: 0;
           padding: 0;
+          background-image: url("../vehicle/images/image-removebg-preview\ \(2\).png");
+          background-repeat: no-repeat;
+          background-size: cover;
         }
         header {
           background-color: #f1f1f1;
@@ -63,7 +66,7 @@ include("login.php");
           margin: 1rem;
           text-align: center;
           font-size: 1.2rem;
-          background-color: #f2f2f2;
+          /* background-color: #f2f2f2; */
           border-radius: 10px;
         }
         .card img {
@@ -77,20 +80,12 @@ include("login.php");
         .card p {
           margin: 0.5rem;
         }
-      </style>
+      </style> -->
 </head>
 <body>
-    <header>
-        <h1>Car Registration</h1>
-      </header>
-      <nav class="pt-2">
-        <div class="text-right">
-  <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
-  <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#registrationModal">Register</button>
-  </div>
-
-
-   <!-- Login Modal -->
+  
+        
+     <!-- Login Modal -->
    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <form class="modal-content" action="<?php echo(htmlspecialchars($_SERVER['PHP_SELF'])); ?>" method="post">
@@ -151,30 +146,75 @@ include("login.php");
   </div>
 </div>
         
-      </nav>
-      <div class="content">
-        <div class="card">
-          <img src=".../../../vehicle/images/ca.webp" alt="Car Image">
-          <h2>Register Your Car</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus euismod augue ut metus dictum, sed lacinia massa lobortis.</p>
-          <a href="#" class="button">Register Now</a>
+      
+      
+      <style>
+		body {
+      background-image: url(../Carr/images/City\ driver-bro.svg);
+			/* background-image: url("../vehicle/images/bd.jpeg"); */
+			background-repeat: no-repeat;
+			background-size: cover;
+			margin: 20px;
+			padding: 0;
+			font-family: Arial, sans-serif;
+      opacity: 0.8;
+      background-position: center;
+      height: 450px;
+      
+
+		}
+            
+
+		.container {
+			max-width: 960px;
+			margin: 0 auto;
+			padding: 20px;
+			color: white;     
+			text-align: center;
+			text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+		}
+
+		h1 {
+			font-size: 60px;
+			margin-top: 100px;
+		}
+
+		p {
+			font-size: 24px;
+			margin-bottom: 40px;
+		}
+
+		a {
+			display: inline-block;
+			background-color: #fff;
+			color: #333;
+			padding: 10px 20px;
+			border-radius: 5px;
+			text-decoration: none;
+			font-weight: bold;
+			margin-top: 20px;
+		}
+
+		a:hover {
+			background-color: #333;
+			color: #fff;
+		}
+	</style>
+        <div class="text-right pt-3">
+          <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+          <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#registrationModal">Register</button>
         </div>
-        <div class="card">
-          <img src="../vehicle/images/ssss.jpeg" alt="Car Image">
-          <h2>Renew Your Registration</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus euismod augue ut metus dictum, sed lacinia massa lobortis.</p>
-          <a href="#" class="button">Renew Now</a>
-        </div>
-        <div class="card">
-          <img src="../vehicle/images/vx-r-3-3d.png" alt="Car Image">
-          <h2>Change of Ownership</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus euismod augue ut metus dictum, sed lacinia massa lobortis.</p>
-          <a href="#" class="button">Change Now</a>
-        </div>
-        <?php
-          include '../Carr/admin/includes/footer.php'
-          ?>
+         <div class="container">
+		       <h1>Register your Car With Us</h1>
+		      <p>We are passionate about cars and love to share our knowledge with others. With us you can register your car  or even change ownership with us.</p>
+          <p>Start your Journey by Registering as a user.</p>
+		      <a href="#">WELCOME </a>
+	      </div>
+        
    
           
 </body>
 </html>
+<?php
+          // include '../Carr/admin/includes/footer.php'
+          ?>

@@ -16,6 +16,15 @@
 		body {
 			font-family: Arial, sans-serif;
 			background-color: #f2f2f2;
+      /* background-image: url("../vehicle/images/image-removebg-preview\ \(1\).png"); */
+      background-image: url(../Carr/images/Vehicle\ Sale-bro.svg);
+			background-repeat: no-repeat;
+			background-size: cover;
+      opacity: 1  ;
+      height: 800px;
+      background-position: center
+      ;
+      
 		}
 		h1 {
 			text-align: center;
