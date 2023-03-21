@@ -168,15 +168,16 @@ include("login.php");
 		.container {
 			max-width: 960px;
 			margin: 0 auto;
-			padding: 20px;
-			color: white;     
+			padding: 10px;
+			color: green;    
 			text-align: center;
 			text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+      opacity: 0.3;
 		}
 
 		h1 {
-			font-size: 60px;
-			margin-top: 100px;
+			font-size: 70px;
+			margin-top: 10px;
 		}
 
 		p {
@@ -206,9 +207,9 @@ include("login.php");
         </div>
          <div class="container">
 		       <h1>Register your Car With Us</h1>
-		      <p>We are passionate about cars and love to share our knowledge with others. With us you can register your car  or even change ownership with us.</p>
-          <p>Start your Journey by Registering as a user.</p>
-		      <a href="#">WELCOME </a>
+		      <!-- <p>We are passionate about cars and love to share our knowledge with others. With us you can register your car  or even change ownership with us.</p>
+          <p>Start your Journey by Registering as a user.</p> -->
+		      <!-- <a href="#">WELCOME </a> -->
 	      </div>
         
    

@@ -15,14 +15,14 @@
 	<style>
 		body {
 			font-family: Arial, sans-serif;
-			background-color: #f2f2f2;
+			/* background-color: #f2f2f2; */
       /* background-image: url("../vehicle/images/image-removebg-preview\ \(1\).png"); */
       background-image: url(../Carr/images/Vehicle\ Sale-bro.svg);
 			background-repeat: no-repeat;
 			background-size: cover;
-      opacity: 1  ;
-      height: 800px;
-      background-position: center
+      opacity: 1;
+    
+    
       ;
       
 		}
@@ -50,6 +50,18 @@
 			border: none;
 			box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 		}
+    p {
+			font-size: 24px;
+			margin-bottom: 40px;
+      font-family: cursive;
+      color: black;
+      font-style: oblique;
+		}
+    h2 {
+      /* color: #4CAF50; */
+      font-weight: 900;
+      font-size: 35px;
+    }
 		input[type="submit"] {
 			background-color: #4CAF50;
 			color: #fff;
@@ -65,10 +77,10 @@
 			background-color: #388E3C;
 		}
         button {
-  background-color: #4CAF50;
+  background-color: #388E3C;
   color: white;
   border: none;
-  padding: 10px 20px;
+  padding: 10px 15px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -76,6 +88,7 @@
   margin: 5px;
   cursor: pointer;
   border-radius: 5px;
+  margin-bottom: 50px;
 }
 
 button:hover {
@@ -85,6 +98,8 @@ button:hover {
 	</style>
 </head>
 <body>
+<h2 class=" text-muted text-center pt-1">We are passionate about cars and love to share our knowledge with others.</h2>
+<p class="text-center">With us you can register your car  or even change ownership with us.</p>
 <div style="display: flex; justify-content: center;">
   <button type="button" data-bs-toggle="modal" data-bs-target="#carRegistrationModal" style="margin-right: 10px;" >Register Car</button>
  
